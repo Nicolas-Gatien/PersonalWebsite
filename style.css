@@ -1,0 +1,13 @@
+.landing{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar:hover{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
