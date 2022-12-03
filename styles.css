@@ -1,0 +1,38 @@
+.center {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.small-divider {
+    width: 90%;
+}
+
+.text {
+    padding-left: 5%;
+}
+
+.list {
+    padding-left: 10%;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .my-face {
+    padding-left: 5%;
+    height: 300px;
+    width: auto;
+  }
+
+  .about-me {
+    padding-left: 5px;
+  }
