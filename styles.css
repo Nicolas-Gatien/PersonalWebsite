@@ -19,7 +19,9 @@
     padding-left: 10%;
 }
 
-
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
 
 .container {
     display: flex;
