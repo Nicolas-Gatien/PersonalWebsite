@@ -23,6 +23,11 @@ body {
     font-family: 'Poppins';font-size: 22px;
 }
 
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 3px;
+}
+
 .container {
     display: flex;
     align-items: center;
