@@ -28,6 +28,10 @@ hr.rounded {
     border-radius: 5px;
 }
 
+.about-me {
+    padding-left: 15%;
+}
+
 .container {
     display: flex;
     align-items: center;
