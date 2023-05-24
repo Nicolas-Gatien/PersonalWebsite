@@ -99,3 +99,10 @@ main {
     text-align: left;
     margin: auto; /* This centers the main content vertically */
 }
+
+.blog-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
