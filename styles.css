@@ -95,7 +95,7 @@ a:hover {
 }
 
 main {
-    width: 50%; /* This will leave 25% on both sides as margins */
+    width: 43%; /* This will leave 25% on both sides as margins */
     text-align: left;
     margin: auto; /* This centers the main content vertically */
 }
