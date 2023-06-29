@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -48,15 +49,15 @@ p {
 
 /* Specific styling for essays page */
 .essays-page main {
-    padding-left: 10%;
+    /* padding-left: 10%; */
 }
 
 .essays-page ul {
-    padding-left: 2%;
+    /* padding-left: 2%; */
 }
 
 .essays-page h1 {
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 .essays-page a {
@@ -95,9 +96,32 @@ a:hover {
 }
 
 main {
-    width: 43%; /* This will leave 25% on both sides as margins */
-    text-align: left;
+    /* width: 43%; /* This will leave 25% on both sides as margins */
+    text-align: center;
     margin: auto; /* This centers the main content vertically */
+    
+}
+
+li, h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1px;
+}
+
+.essaylist {
+    display: flex;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-right: 47%;
+}
+
+h1 {
+    font-size: 30px;
 }
 
 .blog-image {
