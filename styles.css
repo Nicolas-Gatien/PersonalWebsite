@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono');
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: #6c6c6c; /* dark grey text color */
 }
 
@@ -16,7 +16,6 @@ p {
     background-color: white;
     padding: 5px;
     margin-bottom: 20px;
-    box-shadow: 0px 30px 50px -20px rgba(0, 0, 0, 0.3);
 }
 
 .navbar a {
@@ -26,7 +25,7 @@ p {
 }
 
 #home-icon {
-    margin-right: 10px;
+    margin-right: 5%;
     height: 40px;
     width: 40px;
 }
@@ -34,12 +33,12 @@ p {
 /* Order the links */
 .navbar a:nth-child(2) {
     order: 1;
-    padding-right: 10px;
+    padding-left: 55%;
 }
 
 .navbar a:nth-child(3) {
     order: 2;
-    padding-right: 5px;
+    padding-right: 5%;
 }
 
 .navbar img {
@@ -47,10 +46,6 @@ p {
 }
 
 /* Specific styling for essays page */
-.essays-page main {
-    padding-left: 10%;
-}
-
 .essays-page ul {
     padding-left: 2%;
 }
@@ -62,6 +57,40 @@ p {
 .essays-page a {
     text-decoration: none;
     color: red;
+}
+
+.writing main {
+    width: 45%; /* This will leave 25% on both sides as margins */
+    text-align: left;
+    margin: auto; /* This centers the main content vertically */
+    background-color: white;
+}
+
+h2.center {
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.gray-section {
+    background-color: #F5F5F5FF;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16;
+}
+
+div.white-section {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16;
+}
+
+hr.section-divider {
+    border-top: 2px solid #bbb;
+    border-radius: 2px;
+    width: 90%;
 }
 
 a:hover {
@@ -94,11 +123,14 @@ a:hover {
     
 }
 
+
 main {
-    width: 43%; /* This will leave 25% on both sides as margins */
+    width: 50%; /* This will leave 25% on both sides as margins */
     text-align: left;
     margin: auto; /* This centers the main content vertically */
 }
+
+
 
 .blog-image {
     display: block;
@@ -106,3 +138,16 @@ main {
     height: auto;
     margin: auto;
 }
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 1%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
