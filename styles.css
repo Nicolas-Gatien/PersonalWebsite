@@ -39,6 +39,10 @@ p {
 
 .navbar a:nth-child(3) {
     order: 2;
+}
+
+.navbar a:nth-child(4) {
+    order: 3;
     padding-right: 5%;
 }
 
