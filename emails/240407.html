@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="writing">
+    <head>
+        <title>April 7th Update</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+        <link rel="shortcut icon" href="../icon.png">
+    </head>
+    <body class="writing">
+        <nav class="navbar">
+            <a href="../index.html"><img src="../icon.png" alt="Home Icon" id="home-icon"></a>
+            <a href="../essays.html">Essays</a>
+            <a href="../archive.html">Archive</a>
+        </nav>
+        <main>
+            <div>
+                <h1>April 7th Weekly Recap</h1>
+                <p>Sent from Nicolas Gatien on April 7th 2024</p>
+                <br>
+            </div>
+            <div class="white-section">
+                <p>From:<br> Nicolas J. Gatien<br>Ottawa, Ontario <br>Sunday, 6:31 p.m. <br>April 7th, 2024 </p>
+                
+                <p>Dear Friend, </p>
+    
+                <p>My mission is to help build human-level artificial intelligence. Here's a recap of last week. (Not in chronological order)</p>
+            </div>
+
+            <div class="gray-section">
+                <h2 class="center">LIFE SEARCH ALGORITHM</h2>
+                <hr class ="section-divider">
+                <p>Last week I started working on a project to find life forms within cellular automata.</p>
+                <p>My first realization this week, is that I never properly defined what I was looking for. To build a search algorithm, I need a proper definition of what it's trying to find.                </p>
+                <p>In this case that would be a life form. Previously, I was looking for interesting kernels in convolutional cellular automata. My measure of interest was the total changes in value from one board state to another. To simplify my search process, I recreated Conway's Game of Life. In Life, a life form may be defined as a non-chaotic pattern. Something like an oscillator, spaceship, or still life.</p>
+                <p>I found out that there are many other algorithms that have been created to find life forms in Life. I found <a href="https://ics.uci.edu/~eppstein/ca/search.html">this</a> list of search algorithms but haven't gotten the chance to really read through it.                </p>
+                <p>I embarked on this project as an entry back into nature inspired AI, but I have some doubts about the results of continuing. I plan to write an article about                </p>
+            </div>
+            <div class="white-section">
+                <h2 class="center">TEXTING CHATBOT</h2>
+                <hr class ="section-divider">
+                <p>I began working on a chatbot that behaved as though you were texting. I've given an <a href="https://www.youtube.com/watch?v=veG4eoVk4XA">actual phone number</a> to a chatbot before, but there was something that felt off about it.</p>
+                <p>When texting someone, it's generally not a perfect back and forth. Looking at my own text messages conversations, it's often an exchange of a few small messages at a time, with interruptions and tangents. In fact, sometimes there's more than one conversation happening in a single thread.                </p>
+                <p>Texting conversations are messy, which is not something that is emulated very well with current chatbots.                </p>
+                <p>Solving this could be as simple as splitting up responses into multiple messages, but that doesn't actually do anything. The format remains the same: a flat back and forth.                </p>
+                <p>I'm currently exploring a similar idea to the stream of thoughts I created a <a href="https://www.youtube.com/watch?v=HrhA672hVNg">couple months ago</a>. Optimally, the chatbot should be thinking and responding when it's appropriate to do so instead of thinking by responding.</p>
+                <p>I'm currently stuck on threading, if you know of a good tutorial about threading in python I'd be very happy to be made aware. Thanks!</p>
+            </div>
+            <div class="gray-section">
+                <h2 class="center">FUTURE-PROOFING MY WEBSITE</h2>
+                <hr class ="section-divider">
+                <p>I previously used an app called Mailerlite to send monthly email newsletters to my subscribers. As I was updating my <a href="https://nicolasgatien.com/archive.html">archive</a>, I decided to go check out one of those newsletters, but the link brought me to an empty page.</p>
+                <p>It seems Mailerlite has a specific time limit before the online preview links stop working. My account had reached its time. I have lost all of those newsletters I had written.</p>
+                <p>Before today, my website was built on a website editor called Greenlamp, it's the same platform I'm using to write this email. It's a great platform but it's a little overkill for what I need.</p>
+                <p>I just finished moving my personal website back to a regular GitHub pages website and I'm in the process of writing scripts to turn old articles I've written on other sites into pure HTML.</p>
+                <p>My goal is simply to host everything I've written in one place in HTML so that it can't get lost. If GitHub pages goes down, I still have all my files to host it somewhere else. If any of the writing platforms I've used go down, it won't matter because everything will be built in regular HTML on my website.</p>
+                <p>It's feels funny how future proofing my website is a matter of returning to old techniques and standards.            </p>
+            <p>You can check it out here: <a href="https://nicolasgatien.com/">https://nicolasgatien.com/</a>            </p>
+            </div>
+            <div class="white-section">
+                <br>
+                <br>
+                <br>
+                <p>That's everything for this week, I still have a lot of work to turn my past articles into HTML so I'm gonna get back to it.                </p>
+                <p>Thanks for reading!            </p>
+            </div>
+        </main>
+    </body>
+</html>

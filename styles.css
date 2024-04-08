@@ -7,6 +7,7 @@ body {
 
 p {
     line-height: 1.6; /* add more space between lines in a paragraph */
+    margin-bottom: 30px; /* between paragraphs */
 }
 
 .navbar {
@@ -76,6 +77,7 @@ div.gray-section {
     border-radius: 5px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
     font-size: 16;
 }
 
@@ -84,6 +86,7 @@ div.white-section {
     border-radius: 5px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
     font-size: 16;
 }
 
