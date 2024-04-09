@@ -117,6 +117,12 @@ a:hover {
     object-fit: cover;
 }
 
+.profile-image-book {
+    height: 300px; /* Half of original size */
+    width: 300px; /* Maintain the image as a square to ensure the circular cropping works */
+    object-fit: cover;
+}
+
 
 .profile-text {
     flex-grow: 1;
