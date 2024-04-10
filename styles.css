@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto Mono');
 
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+.w3-round-large {
+    border-radius: 8px;
+}
+
+.w3-blue, .w3-hover-blue:hover {
+    color: #fff!important;
+    background-color: #EA6A70!important;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+
 body {
     font-family: 'Roboto Mono', sans-serif;
     color: #6c6c6c; /* dark grey text color */
@@ -165,19 +182,3 @@ main {
     display: table;
   }
 
-.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
-    color: #000!important;
-    background-color: #f1f1f1!important;
-}
-.w3-round-large {
-    border-radius: 8px;
-}
-
-.w3-blue, .w3-hover-blue:hover {
-    color: #fff!important;
-    background-color: #EA6A70!important;
-}
-
-.w3-container, .w3-panel {
-    padding: 0.01em 16px;
-}
